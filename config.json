@@ -1,0 +1,57 @@
+{
+  "nodeVersion": "20.13.0",
+  "frameworks": [
+    {
+      "name": "Next.js",
+      "command": "npx create-next-app@latest",
+      "description": "The React Framework for Production",
+      "options": [
+        {
+          "prompt": "What is your project named?",
+          "flag": "",
+          "required": true
+        }
+      ],
+      "automaticFlags": "--typescript --tailwind --eslint --app --src-dir --import-alias '@/*' --turbopack"
+    },
+    {
+      "name": "React",
+      "command": "npx create-react-app",
+      "description": "A JavaScript library for building user interfaces",
+      "options": [
+        {
+          "prompt": "What is your project named?",
+          "flag": "",
+          "required": true
+        }
+      ],
+      "automaticFlags": "--template typescript-tailwind-prettier-eslint"
+    },
+    {
+      "name": "Remix",
+      "command": "npx create-remix@latest",
+      "description": "Full stack React framework with great developer experience",
+      "options": [
+        {
+          "prompt": "What is your project named?",
+          "flag": "",
+          "required": true
+        }
+      ],
+      "automaticFlags": "--typescript --install --yes --template remix-blues-stack"
+    },
+    {
+      "name": "Astro",
+      "command": "npm create astro@latest",
+      "description": "The all-in-one web framework designed for speed",
+      "options": [
+        {
+          "prompt": "What is your project named?",
+          "flag": "",
+          "required": true
+        }
+      ],
+      "automaticFlags": "--template basics --typescript --use-typescript --install --git --tailwind --prettier --eslint"
+    }
+  ]
+}
